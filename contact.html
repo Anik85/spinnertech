@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spinner Tech</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- fontawsome icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- animate css -->
+  <link rel="stylesheet" href="./assets/css/animate.css" />
+</head>
+
+<body>
+  <!-- ==================== header ================= -->
+  <header class="sticky top-0 z-50">
+    <!-- nav top -->
+    <div class="bg-gradient-to-r from-cyan-500 to-green-500 header-top">
+      <div class="max-w-2xl md:px-0 px-4 mx-auto py-2 flex justify-between items-center text-white md:text-sm text-xs">
+        <h2>Save Extra Cost and Increase Your Business</h2>
+
+        <a href="project-request.html"
+          class="bg-[#f9c74f] text-gray-800 py-2 px-2 rounded-md flex items-center justify-center gap-2 text-xs w-64">
+          <i class="fa-solid fa-link"></i>
+          <span>Request for a free quote</span>
+        </a>
+      </div>
+    </div>
+    <!-- nav main menu -->
+    <div class="shadow-md sticky top-0 z-50 bg-[rgba(255,255,255,1)] header-top">
+      <div class="max-w-7xl w-11/12 mx-auto px-4 md:px-0 h-20 flex justify-between items-center relative">
+        <a href="/">
+          <img src="assets/images/spinner-tech.png" alt="Spinner Tech" width="190" height="20" class="object-cover" />
+        </a>
+        <div class="md:block hidden">
+          <ul class="text-[15px] flex items-center gap-8 text-gray-600 h100P">
+            <li class="dropdown_parent cursor-pointer py-[29px] font-medium hover:text-[#0093dd] megaMenu_parent">
+
+              <span class="relative megaMenu_indecator py-[29px]">
+                All Products
+              </span>
+              <!-- mega munu for all products -->
+
+              <div class="mega_menu  w-full left-0 xl:left-[2.5%] xl:w-[95%] ">
+                <div class="w-full h-5"></div>
+                <div class="mega_menu_contents">
+                  <div class="col-span-3 border-r border-gray-300 pr-2">
+                    <ul>
+                      <li>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Business Solution
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Blockchain
+                        </button>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Ecommerce
+                        </button>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Health
+                        </button>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Education
+                        </button>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          News Portal
+                        </button>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Online Reservation
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="py-3 w-full text-start hover:bg-[#DBF5CD] hover:text-[#40A40B] hover:pl-4 duration-300">
+                          Other
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-span-9 pl-6">
+                    <div class="grid grid-cols-2 xl:grid-cols-3 gap-4">
+                      <a href="#" class="flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                        <p class="megaMenuProd_firstLetter">M</p>
+                        <div>
+                          <h4 class="mb-1 font-semibold">HR Manager</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </a>
+                      <a href="#" class="flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                        <p class="megaMenuProd_firstLetter">M</p>
+                        <div>
+                          <h4 class="mb-1 font-semibold">HR Manager</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </a>
+                      <a href="#" class="flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                        <p class="megaMenuProd_firstLetter">M</p>
+                        <div>
+                          <h4 class="mb-1 font-semibold">HR Manager</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </a>
+                      <a href="#" class="flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                        <p class="megaMenuProd_firstLetter">M</p>
+                        <div>
+                          <h4 class="mb-1 font-semibold">HR Manager</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </a>
+                      <a href="#" class="flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                        <p class="megaMenuProd_firstLetter">M</p>
+                        <div>
+                          <h4 class="mb-1 font-semibold">HR Manager</h4>
+                          <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+
+            <li class=" font-medium hover:text-[#0093dd]">
+              <a href="products.html" class="py-[29px]">Products</a>
+            </li>
+            <li class=" font-medium hover:text-[#0093dd]">
+              <a href="service.html" class="py-[29px]">Services</a>
+            </li>
+            <li class=" font-medium hover:text-[#0093dd]">
+              <a href="blog.html
+              " class="py-[29px]">Blog</a>
+            </li>
+
+            <li class="dropdown_parent cursor-pointer py-[29px] font-medium hover:text-[#0093dd]  megaMenu_parent">
+              <span class="relative megaMenu_indecator py-[29px]">About Us</span>
+              <div class="mega_menu w-[460px] right-[5vw]">
+                <div class="w-full h-5"></div>
+                <div class="mega_menu_contents gap-3">
+                  <a href="about-us.html"
+                    class="col-span-6 flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                    <p class="megaMenuProd_firstLetter">C</p>
+                    <h4 class="mb-1 font-semibold capitalize">About our company</h4>
+                  </a>
+
+                  <a href="about-team.html"
+                    class="col-span-6 flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                    <p class="megaMenuProd_firstLetter">T</p>
+                    <h4 class="mb-1 font-semibold capitalize">About our team</h4>
+                  </a>
+                  <a href="designphase.html"
+                    class="col-span-6 flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                    <p class="megaMenuProd_firstLetter">D</p>
+                    <h4 class="mb-1 font-semibold capitalize">Our Development Process</h4>
+                  </a>
+                  <a href="#" class="col-span-6 flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                    <p class="megaMenuProd_firstLetter">E</p>
+                    <h4 class="mb-1 font-semibold capitalize">Our events</h4>
+                  </a>
+                  <a href="#" class="col-span-6 flex card_bg items-center gap-4 text-sm p-4 rounded font-normal">
+                    <p class="megaMenuProd_firstLetter">P</p>
+                    <h4 class="mb-1 font-semibold capitalize">Our payment Process</h4>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <a href="career.html">
+              <li class="py-[29px] hover:text-[#0093dd] font-medium">
+                Career
+              </li>
+            </a>
+            <a href="contact.html">
+              <li class="py-[29px] hover:text-[#0093dd] font-medium">
+                Contact Us
+              </li>
+            </a>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars block md:hidden" type="button" data-drawer-target="drawer-navigation"
+          data-drawer-show="drawer-navigation" aria-controls="drawer-navigation"></i>
+      </div>
+    </div>
+
+    <!-- drawer component -->
+    <div id="drawer-navigation"
+      class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80   z-[1111] duration-700"
+      tabindex="-1" aria-labelledby="drawer-navigation-label">
+      <a href="/">
+        <img src="assets/images/spinner-tech.png" alt="Spinner Tech" width="130" height="20" />
+      </a>
+      <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
+        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center  ">
+        <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+        <span class="sr-only">Close menu</span>
+      </button>
+      <div class="py-4 overflow-y-auto">
+        <div class="mt-8">
+          <ul class="text-[15px] text-gray-600 h100P">
+            <li class="dropdown_parent cursor-pointer relative mb-2 font-medium hover:text-[#0093dd] z-40">
+              <div id="accordion-open" data-accordion="open">
+                <h2 id="accordion-open-heading-1"
+                  class="flex justify-between items-center w-full font-medium text-left rounded-t-xl !bg-transparent"
+                  data-accordion-target="#accordion-open-body-1" aria-expanded="true"
+                  aria-controls="accordion-open-body-1">
+                  <span class="flex items-center text-[#4b5563]  hover:text-[#0093dd]">All Products</span>
+                  <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </h2>
+
+                <div id="accordion-open-body-1" class="hidden py-2" aria-labelledby="accordion-open-heading-1">
+                  <ul class="dropdown_menu">
+                    <li>
+                      <a href="javascript:void(0)"> Business Solution </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Blockchain</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Ecommerce</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"> Hospital Managemet </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"> Hotel & Resturant </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Education</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">News Portal</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Online Reservation</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">See All Products</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+            </li>
+
+            <li class="mb-2 font-medium hover:text-[#0093dd]" onClick="{toggleDrawer}">
+              <a href="products.html">Products</a>
+            </li>
+
+            <li class="mb-2 font-medium hover:text-[#0093dd]" onClick="{toggleDrawer}">
+              <a href="service.html">Services</a>
+            </li>
+            <li class="mb-2 font-medium hover:text-[#0093dd]" onClick="{toggleDrawer}">
+              <a href="blog.html">Blog</a>
+            </li>
+            <li class="dropdown_parent cursor-pointer relative mb-2 font-medium hover:text-[#0093dd]">
+              <div id="accordion-open" data-accordion="open">
+                <h2 id="accordion-open-heading-1"
+                  class="flex justify-between items-center w-full font-medium text-left rounded-t-xl !bg-transparent"
+                  data-accordion-target="#about-open-body-1" aria-expanded="true" aria-controls="about-open-body-1">
+                  <span class="flex items-center text-[#4b5563]  hover:text-[#0093dd]">About Us</span>
+                  <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </h2>
+
+                <div id="about-open-body-1" class="hidden py-2" aria-labelledby="accordion-open-heading-1">
+                  <ul class="dropdown_menu">
+                    <li>
+                      <a href="about-us.html">About Our company </a>
+                    </li>
+                    <li>
+                      <a href="about-team.html">About Our Team </a>
+                    </li>
+                    <li>
+                      <a href="designphase.html">Our Development Process </a>
+                    </li>
+                    <li>
+                      <a href="#">Our Events </a>
+                    </li>
+                    <li>
+                      <a href="#">Our Payment Process </a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+
+            </li>
+
+            <a href="career.html">
+              <li class="mb-2 hover:text-[#0093dd] font-medium" onClick="{toggleDrawer}">
+                Career
+              </li>
+            </a>
+
+            <a href="contact.html">
+              <li class="mb-2 hover:text-[#0093dd] font-medium" onClick="{toggleDrawer}">
+                Contact Us
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <!--================= contact us ============ -->
+    <section>
+      <!-- title -->
+      <div class="text-center mb-5 mt-10">
+        <h1 class="text-2xl font-bold relative inline-block text-[20px] sm:text-4xl capitalize">
+          Contact <span class="animated_text">us</span>
+          <span class="w-11/12 h-[2px] bg-[#0c386f] mx-auto absolute left-1/2 -translate-x-1/2 -bottom-2"></span>
+        </h1>
+      </div>
+
+      <!-- form -->
+      <section class="max-w-6xl w-11/12 mx-auto my-10 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+        <div class="h-[250px] sm:h-[300] md:h-full max-w-[420px] mx-auto md:ml-auto md:mx-0">
+          <img src="assets/images/carouselone.jpg" alt="" class="h-full md:w-[400px]" />
+        </div>
+
+        <div class="h-full w-full max-w-[420px] rounded-lg mx-auto md:mr-auto md:mx-0 flex items-center wow fadeInDown"
+          style="
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+              rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          ">
+          <form class="px-5 pb-10 pt-6">
+            <div class="mb-10 text-center">
+              <h1 class="font-semibold text-[16px]">Have an Enquiry?</h1>
+              <p class="text-[13px] text-start">
+                Send us your questions or sales enquiries so we can get you to
+                the right people, as soon as possible.
+              </p>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+              <input type="text" name="name" id="name"
+                class="block px-2 py-1 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer font-[13px]"
+                placeholder="" required />
+              <label for="name"
+                class="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                Full Name
+              </label>
+            </div>
+
+            <div class="relative z-0 w-full mb-6 group">
+              <input type="text" name="company" id="company"
+                class="block px-2 py-1 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer font-[13px]"
+                placeholder="" />
+              <label for="company"
+                class="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                Company Name
+              </label>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+              <input type="text" name="phone" id="phone"
+                class="block px-2 py-1 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer font-[13px]"
+                placeholder="" required />
+              <label for="phone"
+                class="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                Phone
+              </label>
+            </div>
+
+            <div class="relative z-0 block w-full mb-6 group">
+              <input type="text" name="email" id="email"
+                class="block px-2 py-1 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer font-[13px]"
+                placeholder="" required />
+              <label for="email"
+                class="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                Email
+              </label>
+            </div>
+
+            <div class="relative z-0 block w-full mb-6 group">
+              <!-- <textarea
+                type="text"
+                name="text"
+                id="text"
+                class="block px-2 py-1 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer font-[13px]"
+                placeholder="fff"
+              /> -->
+              <label for="text"
+                class="peer-focus:font-medium absolute text-sm text-gray-500  duration-300 transform -translate-y-6 scale-90 top-2 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                Text
+              </label>
+              <textarea type="text" name="text" id="text"
+                class="block px-2 py-1 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer font-[13px]"
+                placeholder="Your message"></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit"
+                class="group relative w-40 py-1 overflow-hidden text-[13px] font-semibold rounded-lg bg-gradient-to-r from-[#0c386f] to-[#0f54a8] text-lg shadow">
+                <div
+                  class="absolute inset-0 w-0 bg-gradient-to-r to-[#1c9ad7] from-[#0a6ea0] transition-all duration-[250ms] ease-out group-hover:w-full">
+                </div>
+                <span class="relative text-white text-base">Send</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <!-- ===== find us =======  -->
+    <section class="w-11/12 mx-auto my-20 text-center">
+      <div class="text-center mb-8 mt-10">
+        <h1 class="text-2xl font-bold relative inline-block text-[20px] sm:text-4xl capitalize">
+          Find <span class="animated_text">us</span>
+          <span class="w-11/12 h-[2px] bg-[#0c386f] mx-auto absolute left-1/2 -translate-x-1/2 -bottom-2"></span>
+        </h1>
+      </div>
+
+      <!-- <div class="flex gap-5 flex-col sm:flex-row justify-center items-center "> -->
+      <div class="grid grid-cols-1 sm:grid-cols-2  gap-8">
+
+        <div class="max-w-sm mx-auto sm:mx-0 sm:ml-auto p-10 card_bg  border border-gray-200 rounded-lg shadow ">
+          <h3 class="font-medium text-xl mb-3">Dhaka</h3>
+          <ul class="text-start">
+            <li>
+              <p class="">
+                House: 4, Road: 3, Block: J, Banasree.
+              </p>
+            </li>
+            <li>
+              <p class="">
+                Rampura, Dhaka
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="max-w-sm mx-auto sm:mx-0 sm:mr-auto p-10 card_bg  border border-gray-200 rounded-lg shadow ">
+          <h3 class="font-medium text-xl mb-3">Chattogram</h3>
+          <ul class="text-start">
+            <li>
+              <p class="">
+                Beside SANMAR, House: 107 Road:9 O.R.
+              </p>
+            </li>
+            <li>
+              <p class="">
+                Nizam Rd, Chattogram 4203
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- floating buttons -->
+    <div class="flex flex-col fixed top-1/2 right-5 -translate-y-1/2 gap-5 z-50">
+
+
+      <a href="https://api.whatsapp.com/send?phone=+8801328212606&amp;text=Hello%21%20Would%20you%20like%20to%20help%20me?"
+        class="scl_link whatsapp_link" target="_blank">
+        <img src="./assets/images/whatsapp.png" alt="" class="w-[45px]" />
+      </a>
+      <a href="tg://resolve?domain=spinnertechbd" target="_blank">
+        <img src="./assets/images/telegram.png" alt="" class="w-[45px]" />
+      </a>
+      <a href="https://m.me/spinnertechlimited" target="_blank">
+        <img src="./assets/images/messenger.png" alt="" class="w-[45px]" />
+      </a>
+    </div>
+  </main>
+  <!-- ======== Footer ======== -->
+  <footer class="bg-[#04316bf6] text-[rgba(255,255,255,0.8)]">
+    <div class="max-w-6xl w-11/12 mx-auto pt-10 pb-5 px-4 md:px-0 grid md:grid-cols-4 gap-8 md:gap-4">
+      <div>
+        <a href="/">
+          <img src="assets/images/spinner-tech.png" alt="Spinner Tech" width="190" height="20"
+            class="object-cover mb-4" />
+        </a>
+        <h2 class="mb-4 leading-relaxed">
+          A Professional Website Development and Software Development Company
+          in Bangladesh.
+        </h2>
+        <h2>
+          &copy; {year} Spinner Tech
+          <br />
+          All Rights Reserved.
+        </h2>
+      </div>
+      <div>
+        <h1 class="text-lg font-medium border-b inline-block mb-4">
+          Address
+        </h1>
+        <h2 class="mb-4">
+          Head Office:
+          <br />
+          House: 4, Road: 3, Block: J, Banasree, Rampura, Dhaka.
+        </h2>
+        <h2>
+          Regional Office:
+          <br />
+          Beside SANMAR, House: 107, Road:9 O.R. Nizam Rd, Chattogram 4203.
+        </h2>
+      </div>
+      <div>
+        <h1 class="text-lg font-medium border-b inline-block mb-4">
+          Contact
+        </h1>
+        <h2 class="mb-4">
+          Service: <br />
+          0182-6580-966
+        </h2>
+        <h2 class="overflow-x-auto">
+          Email:
+          <br />
+          spinnertechworld@gmail.com
+        </h2>
+      </div>
+      <div>
+        <h1 class="text-lg font-medium border-b inline-block mb-4">
+          Useful Links
+        </h1>
+        <h2 class="flex items-center gap-2 mb-1">
+          <i class="fa-solid fa-arrow-right"></i>
+          About Us
+        </h2>
+        <h2 class="flex items-center gap-2 mb-1">
+          <i class="fa-solid fa-arrow-right"></i>
+          Contact Us
+        </h2>
+        <h2 class="flex items-center gap-2 mb-1">
+          <i class="fa-solid fa-arrow-right"></i>
+          Blog
+        </h2>
+        <h2 class="flex items-center gap-2 mb-1">
+          <i class="fa-solid fa-arrow-right"></i>
+          Career
+        </h2>
+        <h2 class="flex items-center gap-2 mb-1">
+          <i class="fa-solid fa-arrow-right"></i>
+          Terms & Conditions
+        </h2>
+        <h2 class="flex items-center gap-2 mb-1">
+          <i class="fa-solid fa-arrow-right"></i>
+          Privacy Policy
+        </h2>
+      </div>
+    </div>
+    <div class="border-t border-t-[rgba(255,255,255,.5)] px-4 md:px-0">
+      <div class="max-w-6xl w-11/12 mx-auto py-5 md:flex items-center justify-between">
+        <div class="flex items-center gap-4 text-xl mb-4 md:mb-0">
+          <div
+            class="rounded-full hover:bg-[#3294f7] border border-[rgba(255,255,255,.5)] w-9 h-9 flex justify-center items-center cursor-pointer">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div
+            class="rounded-full hover:bg-[#fd4258] border border-[rgba(255,255,255,.5)] w-9 h-9 flex justify-center items-center cursor-pointer">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div
+            class="rounded-full hover:bg-[#188bff] border border-[rgba(255,255,255,.5)] w-9 h-9 flex justify-center items-center cursor-pointer">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div
+            class="rounded-full hover:bg-[#ff5d8f] border border-[rgba(255,255,255,.5)] w-9 h-9 flex justify-center items-center cursor-pointer">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div
+            class="rounded-full hover:bg-[#00a5cf] border border-[rgba(255,255,255,.5)] w-9 h-9 flex justify-center items-center cursor-pointer">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div>
+          Developed & Maintenance <br />
+          By Spinner Tech
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =======================================================  
+                              SCRIPTS
+      ======================================================= -->
+
+  <!-- Animate js -->
+  <script src="./assets/js/wow.min.js"></script>
+  <!-- flowbite -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
